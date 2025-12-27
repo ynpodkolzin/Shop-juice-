@@ -1,0 +1,108 @@
+body,p,h1,h2,h3,ul{
+    padding: 0px;
+    margin:0px ;
+    
+}
+body{
+    background-color: #F9F9F9;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+ width: 1720px;
+ margin: 0 auto;
+ 
+}
+.header{
+    padding:41px 0px ;
+    border-bottom: 2px solid #779611;
+
+
+}
+.header-container{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    align-items: center;
+}
+.header-list{
+    display: flex;
+    flex-direction: row;
+    gap:80px
+}
+.header-link{
+    color:#707070;
+
+}
+.hero-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.title{
+    color: #779611;
+    font-size:48px ;
+    font-weight: 600;
+    padding-bottom: 50px;
+    font-family:"Exo 2", sans-serif;
+}
+.hero-text{
+    color:#000000;
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+.hero-button{
+    background-color: #779611;
+    font-size: 32px;
+    border-radius: 40px;
+    padding: 18px 70px;
+    color: #F9F9F9;
+    border: none;
+    font-family:"Montserrat",sans-serif ;
+
+}
+.shop{
+    padding-top: 80px;
+    border-top:2px solid #779611 ;
+
+}
+.shop-title{
+    color: #779611;
+    font-size: 36px;
+    padding-bottom: 35px;
+    font-family: "Exo 2" , sans-serif;
+    font-weight: 600;
+
+}
+.shop-text{
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 50px;
+}
+.shop-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.shop-name{
+    color:#779611 ;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    font-size: 24px;
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 400;
+}
+.shop-img{
+    padding-bottom: 35px;
+}
+.shop-price{
+    padding-left: 60px;
+}
