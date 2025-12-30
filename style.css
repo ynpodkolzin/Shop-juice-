@@ -67,7 +67,6 @@ a{
     padding: 18px 70px;
     color: #F9F9F9;
     border: none;
-    font-family:"Montserrat",sans-serif ;
 
 }
 .shop{
@@ -79,12 +78,11 @@ a{
     color: #779611;
     font-size: 36px;
     padding-bottom: 35px;
-    font-family: "Exo 2" , sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 600;
 
 }
 .shop-text{
-    font-family: "Montserrat", sans-serif;
     padding-bottom: 50px;
 }
 .shop-list{
@@ -97,7 +95,6 @@ a{
     padding-bottom: 15px;
     padding-left: 60px;
     font-size: 24px;
-    font-family: "Montserrat" , sans-serif;
     font-weight: 400;
 }
 .shop-img{
@@ -105,4 +102,97 @@ a{
 }
 .shop-price{
     padding-left: 60px;
+}
+.juice{
+    padding-top: 80px;
+    border-bottom:2px solid #779611 ;
+}
+.juice-title{
+    color:#779611;
+    font-size: 36px;
+    font-family:"Exo 2",sans-serif ;
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+.juice-text{
+    color:#000000;
+    padding-bottom: 50px;
+}
+.juice-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.juice-name{
+    color: #779611;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    padding-top: 35px;
+}
+.juice-price{
+    color: #000000;
+    padding-left: 60px;
+    padding-bottom: 80px;
+}
+.about{
+    padding-top: 114px;
+    padding-bottom: 114px;
+    border-bottom: 2px solid #779611;
+    
+    
+}
+.about-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-subtitle{
+    color: #779611;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Exo 2",sans-serif;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+.about-title{
+    color: #779611;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Exo 2",sans-serif;
+    padding-bottom: 35px;
+    width: 560px;
+}
+.about-text{
+    color: #000000;
+    width: 560px;
+}
+.footer{
+    padding-top:60px ;
+    padding-bottom: 60px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-link{
+    color: #000000;
+}
+.footer-title{
+    font-weight: 400;
+    padding-bottom: 20px;
+    
+}
+.footer-address{
+    font-style: normal;
+    line-height: 2;
+}
+.footer-list{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
 }
