@@ -39,6 +39,7 @@ a{
 }
 .header-link{
     color:#707070;
+    font-weight: 500;
 
 }
 .hero-container{
@@ -67,6 +68,9 @@ a{
     padding: 18px 70px;
     color: #F9F9F9;
     border: none;
+    cursor: pointer;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
 
 }
 .shop{
